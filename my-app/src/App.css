@@ -1,4 +1,8 @@
-
+.App{
+  background: linear-gradient(159.02deg, #FFE8D8 13.86%, #FFEBFD 36.67%, #FFF8E8 88.09%), #FFFFFF;
+  width:auto;
+  height:100%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

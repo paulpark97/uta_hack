@@ -6,6 +6,7 @@ import Profession from './Screens/Profession.js';
 import Smoke from './Screens/Smoke.js';
 import Alcohol from './Screens/Alcohol.js';
 import Drugs from './Screens/Drugs.js';
+import SecondScreen from './Screens/SecondScreen.js';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Header from "./utilities/Header.js";
 
@@ -21,6 +22,7 @@ function App() {
           <Route path='/smoke' element={<Smoke/>}/>
           <Route path='/alc' element={<Alcohol/>}/>
           <Route path='/drugs' element={<Drugs/>}/>
+          <Route path='/second' element={<SecondScreen/>}/>
         </Routes>
       </Router>
     </div>
