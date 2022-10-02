@@ -16,6 +16,17 @@
     text-transform: uppercase;
     line-height: 1;
     max-width: 22ch;
+    margin-top: 12rem;
+    margin-left: 6rem;
+}
+
+.textSlides{
+    font-size: 3rem;
+    line-height: 1;
+    
+    padding: 10rem;
+    display:flex;
+    align-items: center;
 }
 
 .header {
@@ -43,3 +54,4 @@
 .optionsContent > :nth-child(2) {
     flex-grow: 1;
 }
+

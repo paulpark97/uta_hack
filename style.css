@@ -90,3 +90,11 @@ button:hover{
 footer{
     padding: 2rem 1rem;
 }
+
+.text-style{
+    border: none;
+    font-size: inherit;
+    color: #F01716;
+    font-weight: bold;
+    margin-left:1rem;
+}
