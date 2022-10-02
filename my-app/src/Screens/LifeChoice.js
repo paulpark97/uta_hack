@@ -4,21 +4,20 @@ import checkmark from "../assets/red-checkmark.png";
 import { Link } from "react-router-dom";
 import "./LifeChoice.css"
 
-
 export default function LifeChoice()
 {
     return(
-        <section class="container">
-            <div class='paragraph-container'>
+        <section className="life-containers">
+            <div className='life-paragraph-containers'>
                 <p>Lorem</p>
             </div>
-            <div class='option-container'>
-                <div class="options">
-                    <img class="icons" src={checkmark}/>
+            <div className='life-option-containers'>
+                <div className="life-options">
+                    <img className="icons" src={checkmark}/>
                     <Link>Yes</Link>
                 </div>
-                <div class="options">
-                    <img class="icons" src={checkmark}/>
+                <div className="life-options">
+                    <img className="icons" src={checkmark}/>
                     <Link>No</Link>
                 </div>
             </div>

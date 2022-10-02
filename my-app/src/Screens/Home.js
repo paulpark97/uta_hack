@@ -25,19 +25,19 @@ function Options()
             <h2>Pick Your Experience</h2>
             <div class="options" to="/about">
                 <img class="icons" src={checkmark}/>
-                <Link to="/life">Small Business</Link>
+                <Link to="/life">LifeChoice</Link>
             </div>
             <div class="options">
                 <img class="icons" src={checkmark}/>
-                <Link>Health</Link>
+                <Link to='/drugs'>Profession</Link>
             </div>
             <div class="options">
                 <img class="icons" src={checkmark}/>
-                <a>Pet Medical</a>
+                <Link to='/smoke'>Pet Medical</Link>
             </div>
             <div class="options">
                 <img class="icons" src={checkmark}/>
-                <a>Disable</a>
+                <Link to='/alc'>Disable</Link>
             </div>
         </div>
     )

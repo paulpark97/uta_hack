@@ -1,14 +1,14 @@
-.life-containers{
+.pro-container{
     display:flex;
     flex-direction: row;
 }
-.life-paragraph-containers{
+.pro-paragraph-container{
     margin-top: 5rem;
     display:flex;
     flex:1;
     justify-content: center;
 }
-.life-option-containers{
+.pro-option-container{
     margin-top:5rem;
     display:flex;
     flex:1;
@@ -16,7 +16,7 @@
     align-items: center;
     gap:1em;
 }
-.life-options{
+.pro-options{
     display:flex;
     align-items: center;
     background-color: #FFF4F4;
@@ -24,6 +24,10 @@
     width:20rem;
     height:5rem;
 }
-.life-options a {
+.pro-options a {
     text-decoration: none;
+}
+.pro-container .pro-paragraph-container p{
+    font-weight: bold;
+    font-size:48px;
 }
