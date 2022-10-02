@@ -19,8 +19,23 @@ const PROFESSION_OPTIONS = [
   {title: "Retired", link:"/death"},
 ]
 const YES_NO = [
-  {title:'Yes',link:'link'},
-  {title:'No',link:'link'}
+  {title:'Yes',link:'/smoke'},
+  {title:'No',link:'/smoke'}
+]
+
+const YES_NO_SMOKE = [
+  {title:'Yes',link:'/alc'},
+  {title:'No',link:'/alc'}
+]
+
+const YES_NO_ALCOHOL = [
+  {title:'Yes',link:'/drugs'},
+  {title:'No',link:'/drugs'}
+]
+
+const YES_NO_DRUGS = [
+  {title:'Yes',link:'/drugs'},
+  {title:'No',link:'/drugs'}
 ]
 
 function App() {
@@ -31,13 +46,13 @@ function App() {
           <Route path='/textSlides' element={<TextSlides backgroundColor={GRADIENT_COLOR} content="People’s lives are always at risk, the below riskometer measure’s an individual’s probability of passing due to their life choices"/>}/>
           <Route path='/profession' element={<OptionsSlides backgroundColor={GRADIENT_COLOR} title="What is your profession?" data={PROFESSION_OPTIONS}/>}/>
           <Route path='/death' element={<OptionsSlides backgroundColor={GRADIENT_COLOR} title="Have you eveer had a newar death experince?" data={YES_NO}/>}/>
-          <Route path='/smoke' element={<OptionsSlides backgroundColor={GRADIENT_COLOR} title="Do you smoke?" data={YES_NO}/>}/>
+          <Route path='/smoke' element={<OptionsSlides backgroundColor={GRADIENT_COLOR} title="Do you smoke?" data={YES_NO_SMOKE}/>}/>
           <Route path='/' element={<Home/>} />
           <Route path='/life' element={<LifeChoice/>}/>
           <Route path='/pro' element={<Profession/>}/>
           <Route path='/smoke' element={<Smoke/>}/>
-          <Route path='/alc' element={<Alcohol/>}/>
-          <Route path='/drugs' element={<Drugs/>}/>
+          <Route path='/alc' element={<OptionsSlides backgroundColor={GRADIENT_COLOR} title="Do you drink alcohol" data={YES_NO_ALCOHOL}/>}/>
+          <Route path='/drugs' element={<OptionsSlides backgroundColor={GRADIENT_COLOR} title="Do you use recreational drugs" data={YES_NO_ALCOHOL}/>}/>
           <Route path='/second' element={<SecondScreen/>}/>
           <Route path='/slides' element={<Slides color={GRADIENT_COLOR}/>}/>
         </Routes>
