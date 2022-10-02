@@ -1,5 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, body > #root {
+  height: 100%;
+}
+
+:root {
+  --state-farm-red: #F01716;
+}
+
+body {
+  margin: 0;
+  color: var(--state-farm-red);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--state-farm-red);
+}
+
 .App{
-  background: linear-gradient(159.02deg, #FFE8D8 13.86%, #FFEBFD 36.67%, #FFF8E8 88.09%), #FFFFFF;
   width:auto;
   height:100%;
 }

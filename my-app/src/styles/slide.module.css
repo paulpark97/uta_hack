@@ -1,0 +1,45 @@
+/*display:'flex', flexDirection:'column', justifyContent:'center',alignItems:'center',gap:'2rem',marginTop:'3rem',background: 'linear-gradient(159.02deg, #FFE8D8 13.86%, #FFEBFD 36.67%, #FFF8E8 88.09%), #FFFFFF',height:'100%' }}*/
+
+.slideContainer {
+    min-height: 100%;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.slideContentContainer {
+    flex-grow: 1;
+}
+
+.slideTitle {
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: 1;
+    max-width: 22ch;
+}
+
+.header {
+    display: flow-root;
+
+   margin: 2rem;
+}
+
+.footer {
+    margin: 2rem;
+}
+
+.header > h1 {
+    line-height: 1;
+}
+
+.optionsContent {
+    display: flex;
+}
+
+.optionsContent > :first-child {
+    flex-grow: 1;
+}
+
+.optionsContent > :nth-child(2) {
+    flex-grow: 1;
+}

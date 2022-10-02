@@ -1,13 +1,14 @@
 import checkmark from "../assets/red-checkmark.png";
 import { Link } from "react-router-dom";
 import "./Profession.css";
+import styles from "./Profession.module.css";
 import ProgressBar from "../utilities/ProgressBar";
 import Header from "../utilities/Header.js";
 
 export default function Profession()
 {
     return(
-        <section className="pro-container">
+        <section className={`green ${styles.backgroundSuperRed}`}>
             <div className="col-container">
                 <div className="row-container">
                 

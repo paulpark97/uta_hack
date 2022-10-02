@@ -1,0 +1,60 @@
+.homeContainer{
+    height: 100%;
+
+    display:flex;
+    flex-flow: row wrap;
+}
+
+.homeLogoHeader {
+    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.homeLogoHeader > h1 {
+    margin-bottom: 0.5rem;
+
+    font-size: 4rem;
+    line-height: 1;
+}
+
+.homeLogoHeader > img {
+    width:210px;
+}
+
+.optionList {
+    margin: 3rem 4rem;
+    padding: 0;
+}
+
+.optionItem {
+    padding: 2rem 4rem;
+
+    background: rgba(255, 244, 244, 1);
+    border: 1px solid var(--state-farm-red);
+    border-radius: 0.5rem;
+
+    margin-bottom: 1rem;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.homeLeftSide {
+    flex-grow: 1;
+}
+
+.homeRightSide {
+    background: #E12623;
+
+    display: flex;
+    justify-content: center;
+
+    flex-grow: 3;
+}
+
+.jakeImg{
+    object-fit: cover;
+    padding-top: 4rem;
+}
+

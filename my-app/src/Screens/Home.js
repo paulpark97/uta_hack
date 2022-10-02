@@ -1,51 +1,32 @@
-import './Home.css';
 import checkmark from "../assets/red-checkmark.png";
 import jake from "../assets/jake.gif";
+import styles from "../styles/page.module.css";
+import Logo from "./components/Logo";
+import Options from "./components/Options";
+
 import { Link } from "react-router-dom";
+
+const OPTIONS_DATA = [
+    {"title": "Small Business", "link": ""},
+    {"title": "Life", "link": ""},
+    {"title": "Health", "link": "/textSlides"},
+    {"title": "Pet Medical", "link": ""}
+]
 
 export default function Home()
 {
     return(
-        <main class="container">
-            <section class="content">
-                
-                <Options/>
-                <Jake/>
+        <main className={`${styles.homeContainer}`}>
+            <section className={`${styles.homeLeftSide}`}>
+                <div className={`${styles.homeLogoHeader}`}>
+                    <h1>Insurance<br/>Periodt.</h1>
+                    <Logo color="#F01716" />
+                </div>
+                <Options data={OPTIONS_DATA} />
+            </section>
+            <section className={`${styles.homeRightSide}`}>
+                <img src={jake} className={`${styles.jakeImg}`}></img>
             </section>
         </main>
-    )
-}
-
-function Options()
-{
-    return(
-        <div class="left-container">
-            <h2>Pick Your Experience</h2>
-            <div class="options" to="/about">
-                <img class="icons" src={checkmark}/>
-                <Link>Small Business</Link>
-            </div>
-            <div class="options">
-                <img class="icons" src={checkmark}/>
-                <Link>Life</Link>
-            </div>
-            <div class="options">
-                <img class="icons" src={checkmark}/>
-                <Link to='/second'>Health</Link>
-            </div>
-            <div class="options">
-                <img class="icons" src={checkmark}/>
-                <Link>Pet Medical</Link>
-            </div>
-        </div>
-    )
-}
-
-function Jake()
-{
-    return(
-        <div class="right-container">
-            <img class="jake-from-statefarm" src={jake}/>
-        </div>
     )
 }
