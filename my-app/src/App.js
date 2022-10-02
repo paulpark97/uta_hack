@@ -58,7 +58,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Home/>} />
-          <Route path='/textSlides' element={<OptionsSlides backgroundColor={GRADIENT_COLOR} title="People’s lives are always at risk, the below riskometer measure’s an individual’s probability of passing due to their life choices" data={TEXTSLIDES_CONTINUE}/>}/>
+          <Route path='/textSlides' element={<OptionsSlides backgroundColor={GRADIENT_COLOR} title="People’s lives are always at risk. Here's how your probability of passing can increases due to the bad life choices." data={TEXTSLIDES_CONTINUE}/>}/>
           <Route path='/profession' element={<OptionsSlides backgroundColor={GRADIENT_COLOR} title="What is your profession?" data={PROFESSION_OPTIONS}/>}/>
           <Route path='/death' element={<OptionsSlides backgroundColor={GRADIENT_COLOR} title="Have you ever had a near death experience?" data={DEATH_YES_NO}/>}/>
           <Route path='/smoke' element={<OptionsSlides backgroundColor={GRADIENT_COLOR} title="Do you smoke?" data={SMOKE_YES_NO}/>}/>
