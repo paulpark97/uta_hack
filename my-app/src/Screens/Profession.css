@@ -1,6 +1,7 @@
 .pro-container{
     display:flex;
     flex-direction: row;
+    justify-content: center;
 }
 .pro-paragraph-container{
     margin-top: 5rem;
@@ -30,4 +31,17 @@
 .pro-container .pro-paragraph-container p{
     font-weight: bold;
     font-size:48px;
+}
+
+.row-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5rem;
+}
+
+.col-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

@@ -25,7 +25,7 @@ function Options()
             <h2>Pick Your Experience</h2>
             <div class="options" to="/about">
                 <img class="icons" src={checkmark}/>
-                <Link to="/life">LifeChoice</Link>
+                <Link to="/pro">LifeChoice</Link>
             </div>
             <div class="options">
                 <img class="icons" src={checkmark}/>
