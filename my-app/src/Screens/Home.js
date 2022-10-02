@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 
 const OPTIONS_DATA = [
     {"title": "Small Business", "link": ""},
-    {"title": "Life", "link": ""},
-    {"title": "Health", "link": "/textSlides"},
+    {"title": "Health", "link": ""},
+    {"title": "Life", "link": "/textSlides"},
     {"title": "Pet Medical", "link": ""}
 ]
 
