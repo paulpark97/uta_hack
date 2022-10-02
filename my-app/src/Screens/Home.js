@@ -19,7 +19,7 @@ export default function Home()
         <main className={`${styles.homeContainer}`}>
             <section className={`${styles.homeLeftSide}`}>
                 <div className={`${styles.homeLogoHeader}`}>
-                    <h1>Insurance<br/>Periodt.</h1>
+                    <h1>Life<br/>Expect.</h1>
                     <Logo color="#F01716" />
                 </div>
                 <Options data={OPTIONS_DATA} />
