@@ -8,7 +8,7 @@ export default function (props, logoColor) {
     let textColor = props.textColor ?? '#E12623';
     return (
         <main style={{background: props.color, color: textColor}} className={`${styles.slideContainer}`}>
-            <header className={`${styles.header}`}><h1>Insurance <br/> Periodt.</h1></header>
+            <header className={`${styles.header}`}><h1>Life <br/> Expect.</h1></header>
             <section className={`${styles.slideContentContainer}`}>{props.children}</section>
             <footer className={`${styles.footer}`}>
                 <Logo color={"#F01716"}/> 
